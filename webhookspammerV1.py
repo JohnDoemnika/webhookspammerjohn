@@ -16,7 +16,7 @@ print (" ")
 url = input("Whats the webhook url ? : ")
 message = input("What message do you want to send ? : ")
 times = input("How many times do you want to send your message ? : ")
-between = input ("How much time do you want to put bewteen each messages ? : ")
+between = input ("How much time do you want to put between each messages ? : ")
 try:
     times = int(times)
 except ValueError:
